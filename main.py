@@ -24,5 +24,5 @@ def deserialize_car_object(json: bytes) -> Car:
         horse_powers=serializer.validated_data["horse_powers"],
         is_broken=serializer.validated_data["is_broken"],
         problem_description=serializer.validated_data["problem_description"]
-        )
+    )
     return car
